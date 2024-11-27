@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "DocuAnalyst",
+    "slug": "DocuAnalyst",
+    "scheme": "docuanalyst",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1B1B1B"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#1B1B1B"
+      },
+         "androidStatusBar": {
+      "backgroundColor": "#1B1B1B",
+      "translucent": false,
+      "style": "light"
+    },
+      "package": "com.clarkwagdy.DocuAnalyst"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
